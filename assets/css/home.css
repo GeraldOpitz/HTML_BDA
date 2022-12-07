@@ -2,3 +2,21 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #202020;
+}
+.texto{
+    color: white;
+}
+.noti{
+    color: white;
+    text-align: center;
+    background-color: #92478C;
+}
+/* html{
+    style="background: #202020;";}
+    ->no es necesdario porque la página ya está en negro */
+/* body {
+      margin: 0;
+    } 
+    ->no es necesario porque en el asterisco coloco el margin 0*/
