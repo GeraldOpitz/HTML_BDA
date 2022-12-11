@@ -1,22 +1,120 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: white;
 }
 body{
     background-color: #202020;
 }
-.texto{
-    color: white;
-}
 .noti{
-    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
     background-color: #92478C;
+    margin-bottom: 0px;
 }
-/* html{
-    style="background: #202020;";}
-    ->no es necesdario porque la página ya está en negro */
-/* body {
-      margin: 0;
-    } 
-    ->no es necesario porque en el asterisco coloco el margin 0*/
+footer{
+    background-color: #161616;
+}
+.col{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.row{
+    margin-left: -90px;
+    margin-right: -100px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+div{
+    text-align: center;
+}
+.textofooter{
+    margin-top: 50px;
+}
+a{
+    color: white;
+}
+.fotoprincipal{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-brand{
+    color: white;
+
+}
+#aproducto{
+    margin-right: 150px;
+    margin-left: -80px;
+}
+#icono1{
+    padding-left: 50px;
+}
+#icono2{
+    padding-left: 20px;
+}
+.navbar{
+    margin-left: 170px;
+
+}
+h1{
+    font-family: Bokor;
+}
+h5{
+    font-family: Zen Kaku Gothic New;
+}
+#destacado5{
+    height: 729.2px;
+}
+.card{
+    background-color: #2D2D2D;
+    border-color: #202020;
+}
+.card-body{
+    background-color: #2D2D2D;
+}
+nav{
+    font-family: Bokor;
+}
+.enlacenavbar{
+    font-size: 40px;
+}
+#navbarmargin{
+    margin-left: 120px;
+}
+.fontbokor{
+    font-family: Bokor;
+}
+.fotodrop{
+    height: 425px;
+}
+.show{
+    background-color: #161616;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.dropdown-menu.show{
+    width: 1410px;
+    margin-left: -157px;
+}
+/* 
+style="width: 15rem; border-radius: 0%; border-color: #202020; "
+ style="background-color: #202020;  height: 21rem;""
+ style="background-color:#2D2D2D;"
+  style="padding: 2rem;"
+  style="width: 15rem; border-radius: 0%; border-color: #202020;  "
+   style="background-color: #202020;"
+   style="background-color:#2D2D2D;"
+    style="width: 15rem; border-radius: 0%; border-color: #202020; "
+    style="background-color: #202020; height: 21rem;" 
+    style="background-color:#2D2D2D;"
+     style="width: 15rem; border-radius: 0%; border-color: #202020; "
+     style="background-color: #202020; "
+      style="background-color:#2D2D2D;"
+*/
