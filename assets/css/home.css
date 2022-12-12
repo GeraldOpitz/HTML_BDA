@@ -49,9 +49,8 @@ a{
     color: white;
 
 }
-#aproducto{
-    margin-right: 150px;
-    margin-left: -80px;
+.separacion{
+    margin-right: 100px;
 }
 #icono1{
     padding-left: 50px;
@@ -69,9 +68,7 @@ h1{
 h5{
     font-family: Zen Kaku Gothic New;
 }
-#destacado5{
-    height: 729.2px;
-}
+
 .card{
     background-color: #2D2D2D;
     border-color: #202020;
