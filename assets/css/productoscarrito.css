@@ -148,6 +148,15 @@ nav{
     border: 1px solid #92478C;
     border-radius: 10px;
 }
+#calcular-envio-button:hover{
+    font-family: Zen Kaku Gothic New;
+    background-color: #92478C;
+    color: #161616;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
 
 #card-revisionpedido {
     background-color: transparent;
