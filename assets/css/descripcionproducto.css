@@ -1,0 +1,107 @@
+/* *Aplicado a la página en general */
+
+* {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #202020;
+}
+
+/* *Primer div con imagen y descripción */
+#imagenproducto {
+    width: 400px;
+    margin: auto;
+    display: block;
+
+}
+
+/* *Select */
+.form-select {
+
+    color: white;
+    background: #202020 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px !important;
+    width: 350px;
+}
+
+/* *Aplicado generalmente */
+.textleft {
+    text-align: left;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.destacado {
+    color: #92478C;
+}
+
+/* *contador */
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+    border-radius: 10px;
+    height: 38px;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f077';
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(0deg);
+    margin-left: 5px
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
