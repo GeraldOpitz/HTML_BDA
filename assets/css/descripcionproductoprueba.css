@@ -1,0 +1,259 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+body {
+    background-color: #202020;
+}
+
+.noti {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: #92478C;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #161616;
+    width: 100%;
+
+}
+
+.col {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.row {
+    margin-left: -90px;
+    margin-right: -100px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div {
+    text-align: center;
+}
+
+.textofooter {
+    margin-top: 50px;
+}
+
+a {
+    color: white;
+}
+
+.fotoprincipal {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-brand {
+    color: white;
+
+}
+
+.separacion {
+    margin-right: 100px;
+}
+
+#icono1 {
+    padding-left: 50px;
+}
+
+#icono2 {
+    padding-left: 20px;
+}
+
+.navbar {
+    margin-left: 170px;
+
+}
+
+
+h5 {
+    font-family: Zen Kaku Gothic New;
+}
+
+.card {
+    background-color: #2D2D2D;
+    border-color: #202020;
+}
+
+.card-body {
+    background-color: #2D2D2D;
+}
+
+nav {
+    font-family: Bokor;
+}
+
+.enlacenavbar {
+    font-size: 40px;
+}
+
+#navbarmargin {
+    margin-left: 120px;
+}
+
+.fontbokor {
+    font-family: Bokor;
+}
+
+.fotodrop {
+    height: 425px;
+}
+
+.show {
+    background-color: #161616;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.dropdown-menu.show {
+    width: 1410px;
+    margin-left: -157px;
+}
+
+#logoblanco {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 9.375em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#divcentral {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#imagenproducto {
+    width: 25rem;
+
+}
+
+.form-select {
+
+    color: white;
+    background: #202020 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px !important;
+
+}
+
+input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: 2px solid #ddd;
+    display: inline-flex;
+    border-radius: 10px;
+    height: 38px;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+
+}
+
+.number-input button {
+    outline: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    margin: 0;
+    position: relative;
+}
+
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f077';
+    transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(0deg);
+    margin-left: 5px
+}
+
+.number-input input[type=number] {
+    font-family: sans-serif;
+    max-width: 5rem;
+    padding: .5rem;
+    border-width: 0 2px;
+    font-size: 2rem;
+    height: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.quantity {
+    background-color: #202020;
+    margin-left: 43px;
+    height: 30px;
+}
+
+#botoncarro {
+    background-color: #92478C;
+    color: white;
+    width: 15.906rem;
+    margin-bottom: -3px;
+}
+
+.minus {
+    padding-right: 31px;
+    padding-left: 32px;
+    border-right: solid white;
+    border-width: 2.2px;
+    height: 36px;
+}
+
+.plus {
+    border-left: solid white;
+    border-width: 2.2px;
+    margin-left: 46px;
+    height: 36px;
+}
+
+.interesar {
+    color: #92478C;
+}
+
+.carrusel {
+    width: 300px;
+}
+
+.textoleft {
+    text-align: left;
+}
