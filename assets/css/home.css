@@ -21,10 +21,7 @@ footer{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.row{
-    margin-left: -90px;
-    margin-right: -100px;
-}
+
 img {
     max-width: 100%;
     max-height: 100%;
@@ -58,10 +55,7 @@ a{
 #icono2{
     padding-left: 20px;
 }
-.navbar{
-    margin-left: 170px;
 
-}
 h1{
     font-family: Bokor;
 }
@@ -82,9 +76,7 @@ nav{
 .enlacenavbar{
     font-size: 40px;
 }
-#navbarmargin{
-    margin-left: 120px;
-}
+
 .fontbokor{
     font-family: Bokor;
 }
@@ -98,7 +90,6 @@ nav{
 }
 .dropdown-menu.show{
     width: 1410px;
-    margin-left: -157px;
 }
 /* 
 style="width: 15rem; border-radius: 0%; border-color: #202020; "
