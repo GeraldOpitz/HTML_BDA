@@ -53,10 +53,7 @@ footer{
     text-align: start;
     font-family: "Roboto", Light;
 }
-.pagos img {
-    margin: 2%;
-    width: 200px;
-}
+
 .footer_bloques a {
     text-decoration: none;
     color: rgb(255, 255, 255)
@@ -74,6 +71,6 @@ footer{
     background-color: #92478C;
     margin: 0;
     padding: 0.3rem;
-    font-size: 1.5vh;
+    font-size: medium;
 }
 /*Fin footer css*/
