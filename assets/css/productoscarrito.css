@@ -53,29 +53,6 @@ h5{
     font-family: Zen Kaku Gothic New;
 }
 
-#navbarmargin{
-    margin-left: 10.625em;
-    margin-right: 10.625em;
-    
-}
-
-
-/* .navbar{ 
-    margin-left: 10.625em;
-    margin-right: 10.625em;
-
-} */
-
-nav{
-    font-family: Bokor;
-}
-
-
-
-.enlacenavbar{
-    font-size: 40px;
-}
-
 .containerprincipal {
     margin-top: 15rem;
 }

@@ -126,8 +126,7 @@ button.plus {
 
 .flexdisplay {
     display: flex;
-    margin-left: 11%;
-    margin-right: 6%;
+    justify-content: center;
 }
 
 /* *Aplicado generalmente */
