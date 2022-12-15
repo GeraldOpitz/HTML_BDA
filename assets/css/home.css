@@ -91,6 +91,15 @@ nav{
 .dropdown-menu.show{
     width: 1410px;
 }
+
+.imagenLink {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
 /* 
 style="width: 15rem; border-radius: 0%; border-color: #202020; "
  style="background-color: #202020;  height: 21rem;""
