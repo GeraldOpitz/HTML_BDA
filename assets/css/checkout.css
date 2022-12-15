@@ -46,6 +46,17 @@ h1{
     font-family: Bokor;
 }
 
+h4 {
+
+    color:#FFFFFF; 
+    font-family: Zen Kaku Gothic New;
+}
+
+h4 span {
+    color:#92478C;
+    font-family: Zen Kaku Gothic New;
+}
+
 h2{
     font-family: Zen Kaku Gothic New;
 }
@@ -76,10 +87,6 @@ nav{
     font-size: 40px;
 }
 
-.containerprincipal {
-    margin-top: 15rem;
-}
-
 #estadocompra{
     margin-top: 5rem;
     font-family: Zen Kaku Gothic New;
@@ -88,129 +95,78 @@ nav{
     justify-content: center;
 }
 
-#carrodecompras{
-    text-align: start;
-    margin-top: 5rem;
-
-
-}
-
-#titulocarro {
-    display:block;
-    text-align: start;
-}
-
-
-.card-text {
-    color: #ffffff;
-}
-
-#card-costoestimado {
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius:10px;
-    margin-bottom: 3rem;
-
-}
-#costo-estimado {
+#revision-pedido{
     color: #92478C;
     text-align: left;
     margin-left: 1rem;
-    
 }
 
-#card-productos {
-    background-color: transparent;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-}
-
-#select-region {
-    margin-left: 1rem;
-    width: 92%;
-    margin-top: 1rem;
-    background-color: transparent;
-    color:#FFFFFF;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-}
-
-#calcular-envio-button {
-    font-family: Zen Kaku Gothic New;
-    width: 92%;
-    font-size: 1.2rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-
-    background-color: transparent;
-    border: 1px solid #92478C;
-    border-radius: 10px;
-}
-#calcular-envio-button:hover{
-    font-family: Zen Kaku Gothic New;
-    background-color: #92478C;
-    color: #161616;
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-#card-revisionpedido {
+#card-revisionpedido{
     background-color: transparent;
     border: 1px solid #FFFFFF;
     border-radius:10px;
-
+    padding: 1em;
 }
 
-p {
-    font-family: Zen Kaku Gothic New;
-    font-size: 1rem;
+#detalles-pedido{
+    margin-top: -7.5em;
 }
 
-#fila1 {
-    border-bottom: 1px solid #FFFFFF;
+#detalles-cantidad {
+    margin-left: 37%;
+    margin-top: -5.5em;
 }
 
-#select-cantidad {
-    margin-left: 1.2rem;
-    width: 4rem;
-    margin-top: 2rem;
+#card-contenido {
     background-color: transparent;
-    color:#FFFFFF;
     border: 1px solid #FFFFFF;
-    border-radius: 10px;
+    padding: 3rem;
+    margin-bottom: 5rem;
+    
 }
 
-#continuarpago-buttons{
-    background-color: transparent;;
-}
-
-#continuarpago {
-    font-size: 1.2rem;
+#revisarcompra-button{
     padding: 0.3rem;
     background-color: #92478C;
     border: 1px solid #92478C;
     border-radius: 10px;
-    width: 100%;
-    margin-top: 3rem;
-    
-
-
+    width: 100%
 }
 
-#seguircomprando {
-    width: 100%;
-    font-size: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;    
+#editarcarrito-button {
+    margin-top: 0.8rem;
+    padding: 0.3rem;
     background-color: transparent;
     border: 1px solid #92478C;
     border-radius: 10px;
+    width: 100%
+
+}
+
+#seguircomprando-button {
+    margin-top: 0.8rem;
+    padding: 0.3rem;
+    background-color: transparent;
+    border: 1px solid #92478C;
+    border-radius: 10px;
+    width: 100%
+}
+
+#subtotal {
+    border-top: 1px solid #FFFFFF;
+    
+}
+
+.form-control{
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+.form-select{
+    background-color: transparent;
+    border-radius: 10px;
+    color: #6C757D;
 }
 
 footer{
