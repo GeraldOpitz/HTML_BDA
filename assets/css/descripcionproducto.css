@@ -26,22 +26,6 @@ body {
     width: 350px;
 }
 
-/* *Aplicado generalmente */
-.textleft {
-    text-align: left;
-}
-
-.texto {
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-    color: white;
-}
-
-.destacado {
-    color: #92478C;
-}
-
 /* *contador */
 input[type="number"] {
     -webkit-appearance: textfield;
@@ -55,16 +39,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .number-input {
-    border: 2px solid #ddd;
+    border: 1px solid #ddd;
     display: inline-flex;
-    border-radius: 10px;
-    height: 38px;
+    width: 260px;
 }
 
-.number-input,
-.number-input * {
+.number-input {
     box-sizing: border-box;
-
+    border-radius: 5px;
+    height: 38px;
 }
 
 .number-input button {
@@ -74,8 +57,7 @@ input[type=number]::-webkit-outer-spin-button {
     border: none;
     align-items: center;
     justify-content: center;
-    width: 3rem;
-    height: 3rem;
+    width: 20rem;
     cursor: pointer;
     margin: 0;
     position: relative;
@@ -92,16 +74,74 @@ input[type=number]::-webkit-outer-spin-button {
 
 .number-input button.plus:after {
     transform: translate(-50%, -50%) rotate(0deg);
-    margin-left: 5px
 }
 
 .number-input input[type=number] {
     font-family: sans-serif;
-    max-width: 5rem;
+    max-width: 10rem;
     padding: .5rem;
+    border: solid #ddd;
     border-width: 0 2px;
-    font-size: 2rem;
-    height: 3rem;
+    font-size: 1.5rem;
+    height: 2.5rem;
     font-weight: bold;
     text-align: center;
+}
+
+#bordecontador {
+    background: transparent;
+    border: none;
+}
+
+button.minus {
+    border-right: solid;
+    border-width: 2px;
+}
+
+button.plus {
+    border-left: solid;
+    border-width: 2px;
+}
+
+#contadorYbutton {
+    display: flex;
+}
+
+#carroboton {
+    background-color: #92478C;
+    border: none;
+    border-radius: 5px;
+    width: 258px;
+    height: 36px;
+
+}
+
+/* *carrusel */
+.carruselimg {
+    width: 300px;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flexdisplay {
+    display: flex;
+    margin-left: 11%;
+    margin-right: 6%;
+}
+
+/* *Aplicado generalmente */
+.textleft {
+    text-align: left;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.destacado {
+    color: #92478C;
 }
