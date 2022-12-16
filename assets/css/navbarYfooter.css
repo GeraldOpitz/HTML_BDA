@@ -71,14 +71,17 @@ a {
 
 .dropdown-menu.show {
     width: 100%;
-    background-color: #161616;
+    background-color: #2D2D2D;
     padding-bottom: 30px;
     padding-top: 30px;
+    border: none;
+    border-radius: 0%;
 }
 
 .card {
     background-color: #2D2D2D;
     border-color: #202020;
+    border-radius: 0%;
 }
 
 #fontsize {
@@ -98,10 +101,10 @@ footer {
     background-color: #161616;
     display: flex;
     justify-content: space-around;
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 3%;
-    padding-bottom: 1rem;
+    padding-bottom: 1%;
 }
 
 
@@ -118,15 +121,8 @@ footer {
 .rrss {
     justify-content: space-around;
     margin-top: 1rem;
-    margin: 1%;
 }
 
-
-.imgconfig {
-    margin: 1%;
-    max-width: 100%;
-    max-height: 100%;
-}
 
 .footer_bloques {
     margin: 2%;
