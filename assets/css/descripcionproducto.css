@@ -1,21 +1,13 @@
-/* *Aplicado a la página en general */
-
-* {
-    color: white;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background: #202020;
-}
-
 /* *Primer div con imagen y descripción */
 #imagenproducto {
     width: 400px;
     margin: auto;
     display: block;
 
+}
+
+p {
+    text-align: left;
 }
 
 /* *Select */
