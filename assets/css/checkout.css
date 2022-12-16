@@ -16,6 +16,11 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
+.input {
+    color: white;
+    background: transparent;
+}
+
 h4 span {
     color: #92478C;
     font-family: Zen Kaku Gothic New;
