@@ -92,7 +92,8 @@ h5{
 #costo-estimado {
     color: #92478C;
     text-align: left;
-    margin-left: 1rem;
+    margin-left: 0rem;
+    padding: 1rem;
     
 }
 
