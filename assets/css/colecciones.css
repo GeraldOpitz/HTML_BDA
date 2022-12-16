@@ -3,12 +3,12 @@
 }
 .option_btn.btn.btn-primary{
     background-color: #92478C;
-    border: #161616;
+    border: #92478C;
 }
 
 .option_btn.btn.btn-primary:hover {
-    background-color: #000000;
-    color: #92478C;
+    background-color: #a46e9f;
+    color: #ffffff;
     cursor: pointer;
     display: inline-block;
     position: relative;
