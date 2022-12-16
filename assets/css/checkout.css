@@ -1,91 +1,56 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    color: white;
-}
-
-body {
-    background-color: #202020;
-}
-
-.noti {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    text-align: center;
-    background-color: #92478C;
-    margin-bottom: 0px;
-}
-
-
-footer {
-    background-color: #161616;
-}
-
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-div {
-    text-align: center;
-}
-
-.textofooter{
-    margin-top: 50px;
-}
-
-.fotoprincipal{
-    margin-top: 70px;
-    margin-bottom: 70px;
-    width: 400px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-h1{
-    font-family: Bokor;
-}
-
 h4 {
 
-    color:#FFFFFF; 
+    color: #FFFFFF;
     font-family: Zen Kaku Gothic New;
+}
+
+/* *Select */
+.form-select {
+
+    color: white;
+    background: #202020 url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='white' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right .75rem center/8px 10px !important;
+    width: 367px;
+    border-radius: 10px;
+    color: #6C757D;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 h4 span {
-    color:#92478C;
+    color: #92478C;
     font-family: Zen Kaku Gothic New;
 }
 
-h2{
-    font-family: Zen Kaku Gothic New;
-}
-h5{
+h2 {
     font-family: Zen Kaku Gothic New;
 }
 
-#estadocompra{
+h5 {
+    font-family: Zen Kaku Gothic New;
+}
+
+#estadocompra {
     margin-top: 5rem;
     font-family: Zen Kaku Gothic New;
     text-align: center;
-    font-size: 1.6em;    
+    font-size: 1.6em;
     justify-content: center;
 }
 
-#revision-pedido{
+#revision-pedido {
     color: #92478C;
     text-align: left;
     margin-left: 1rem;
 }
 
-#card-revisionpedido{
+#card-revisionpedido {
     background-color: transparent;
     border: 1px solid #FFFFFF;
-    border-radius:10px;
+    border-radius: 10px;
     padding: 1em;
 }
 
-#detalles-pedido{
+#detalles-pedido {
     margin-top: -7.5em;
 }
 
@@ -99,10 +64,10 @@ h5{
     border: 1px solid #FFFFFF;
     padding: 3rem;
     margin-bottom: 5rem;
-    
+
 }
 
-#revisarcompra-button{
+#revisarcompra-button {
     padding: 0.3rem;
     background-color: #92478C;
     border: 1px solid #92478C;
@@ -117,7 +82,6 @@ h5{
     border: 1px solid #92478C;
     border-radius: 10px;
     width: 100%
-
 }
 
 #seguircomprando-button {
@@ -131,73 +95,11 @@ h5{
 
 #subtotal {
     border-top: 1px solid #FFFFFF;
-    
+
 }
 
-.form-control{
+.form-control {
     background-color: transparent;
     border-radius: 10px;
 
-}
-
-.form-select{
-    background-color: transparent;
-    border-radius: 10px;
-    color: #6C757D;
-}
-
-footer{
-    background-color: #161616;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 3%;
-    padding-bottom: 1rem;
-}
-
-.FT{
-    font-family: "Roboto", Bold;
-    text-align: start;
-}
-
-.logo {
-    flex-flow: row wrap;
-
-}
-
-.rrss{
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.rrss img {
-    margin: 1%;
-}
-
-.footer_bloques {
-    margin: 2%;
-    font-size: medium;
-    text-align: start;
-    font-family: "Roboto", Light;
-}
-
-.footer_bloques a {
-    text-decoration: none;
-    color: rgb(255, 255, 255)
-}
-
-
-.footer_bloques a:hover {
-    text-decoration: none;
-    color: #92478C;
-    transition: 0.5s;
-}
-
-.noti {
-    justify-content: center;
-    background-color: #92478C;
-    margin: 0;
-    padding: 0.3rem;
-    font-size: medium;
 }

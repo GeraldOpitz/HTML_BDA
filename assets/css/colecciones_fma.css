@@ -1,29 +1,17 @@
-/* .btn {
-   background-color: #92478C;
-   color: white;
-   border-color: #92478C;
-} */
-
-/* 
-btn.btn-outline-light :hover {
-   background: white !important;
-   color: #92478C !important;
-   cursor: pointer;
-   transition: 0.5s;
-}*/
-
-
-.myboton {
-   background-color: #92478C;
-   color: white;
-   border-color: #92478C;
+.titulo {
+   color: #92478c;
 }
 
-myboton:hover {
+.option_btn.btn.btn-primary {
+   background-color: #92478C;
+   border: #161616;
+}
+
+.option_btn.btn.btn-primary:hover {
    background-color: white;
    color: #92478C;
-}
-
-.card-title {
-   color: #92478C;
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
 }
