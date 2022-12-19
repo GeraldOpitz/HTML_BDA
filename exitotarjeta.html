@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Black Domino Atelier</title>
     <link rel="stylesheet" href="assets/css/navbarYfooter.css">
-    <link rel="stylesheet" href="assets/css/revisionpedido.css">
+    <link rel="stylesheet" href="assets/css/exitotarjeta.css">
 
 </head>
 </head>
@@ -122,10 +122,29 @@
     <br><br><br><br><br>
     <div class="container" id="divcentral">
         <div class="container" id="estadocompra">
-            <h4><span>Carro > Proceso de pago ></span> <strong>Revisión del pedido > </strong> Éxito </h4>
-
+            <h4><span>Carro > Proceso de pago > Revisión del pedido > </span><strong> Éxito</strong>  </h4>
+        
+          </div>
+        <div class="container" id="gracias" style="margin-top: 3rem;">
+            <p style="text-align: left;">Pedido #xxxxx</p>
+            <h4 style="text-align: left; margin-top: -1rem;">Gracias {nombrecliente} por tu compra!</h4>
         </div>
-        <div class="card" style="width: 100; margin-top: 3rem; margin-bottom: 4rem; padding: 2rem;">
+        <div class="card" style="width: 100; margin-top: 3rem; margin-bottom: 4rem;">
+            <div class="card-body">
+                <h5 class="card-text" style="text-align: left;">¡Estamos muy contentos de que hayas comprado en Black
+                    Domino Atelier!</h5>
+                <p style="text-align: left;">Una vez tu compra sea procesada por nosotros comenzaremos con el proceso de
+                    confección de tu pedido. Debes tener en cuenta de que este periodo puede tomar hasta una semana
+                    dependiendo de qué tan grande sea el pedido. Si tienes alguna duda con respecto al tiempo de
+                    confección no dudes en escribirnos a nuestro Instagram (@blackdominoatelier)
+                    o a nuestro mail (blackdominoatlier@gmail.com).
+                </p>
+                <p style="text-align: left;">Con respeto al envío: si elegiste un método de envío a domicilio o sucursal
+                    de retiro, te enviaremos a tu mail un código de seguimiento cuando hayamos enviado el pedido.</p>
+                <p style="text-align: left;">Si elegiste el método de retiro en metro Ciudad del Niño, nos pondremos en
+                    contacto contigo para coordinar el día y el horario para que puedas pasar a retirar tu(s)
+                    productos(s).</p>
+            </div>
             <div class="card-body">
                 <h4 style="text-align: left; color: #92478C; margin-bottom: 2rem;">Resumen de tu compra</h4>
                 <div class="container text-center">
@@ -176,7 +195,7 @@
                         <div class="col">
                             <p style="margin-bottom: 0.05rem; margin-top: 1rem; color:#92478C ;">Polerón polo Naruto</p>
                             <p style="margin-bottom: 0.05rem;">Talla: XL</p>
-
+                            
 
                         </div>
                         <div class="col">
@@ -193,30 +212,53 @@
                 </div>
             </div>
             <hr>
-            <div class="container" id="envio" style="text-align: left;">
-                <h4 style="text-align: left; color: #92478C; margin-bottom: 2rem;">Envío</h4>
-                <p>Dirección:</p>
-                <p>Ciudad:</p>
-                <p>Comuna:</p>
-                <p>Región:</p>
-                <p>Sucursal <small><i>(opcional)</i></small>:</p>
+            <div class="container" id="totalcompra">
+                <h4>Total de tu compra incluyendo envío</h4>
+                <p>$30.000CLP</p>
+            </div>
+            <hr>
+            <div class="card-body">
+                <h4 style="text-align: left; color: #92478C; margin-bottom: 2rem;">Información del cliente</h4>
+                <div class="container">
+                    <div class="row">
+                      <div class="col" style="text-align: left;">
+                        <h5>Información de contacto</h5>
+                        <p>sebgarridor@gmail.com</p>
+                      </div>
+                      <div class="col" style="text-align: left;">
+                        <h5>Método de pago</h5>
+                        <p>Pago Webpay - <b>$30.000CLP</b></p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="text-align: left;">
+                        <h5>Dirección de envío</h5>
+                        <p>Sebastián Garrido</p>
+                        <p  style="margin-top: -0.8rem;">Alameda 123</p>
+                        <p style="margin-top: -0.8rem;">Santiago, RM</p>
+                        <p style="margin-top: -0.8rem;">9 3531 7521</p>
+                      </div>
+                      <div class="col" style="text-align: left;">
+                        <h5>Dirección de facturación</h5>
+                        <p>Sebastián Garrido</p>
+                        <p style="margin-top: -0.8rem;">Alameda 123</p>
+                        <p style="margin-top: -0.8rem;">Santiago, RM</p>
+                        <p style="margin-top: -0.8rem;">9 3531 7521</p>
+
+                      </div>
+
+                    </div>
+                    <div class="col" style="text-align: left;">
+                        <h5>Método de envío</h5>
+                        <p>Retiro en Metro Ciudad del Niño</p>
+                      </div>
+                    </div>
+                  </div>
+                
             </div>
             
-            <hr>
-            <div class="container" id="totalcompra">
-                <p>Total productos: $00.000CLP</p>
-                <p>Total envío: $00.000CLP</p>
-                <h4>Total compra: $30.000CLP</h4>
-                <br>
-                <button type="submit" id="pagar-button" onclick="location.href = '/exitotarjeta.html';">Pagar</button>
-            </div>
-            <hr>
-
 
         </div>
-
-
-    </div>
 
     </div>
 
