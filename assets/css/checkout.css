@@ -132,7 +132,7 @@ h5 {
 input[type="radio"] {
     appearance: none;
     background-color: rgb(250, 250, 250);
-    margin-top: 2%;
+    margin-top: 5%;
     font: inherit;
     color: currentColor;
     width: 1.15em;
@@ -179,3 +179,26 @@ input[type="radio"] {
   p {
     font-family: Zen Kaku Gothic New;
   }
+
+  /*responsive*/
+@media(min-width:481px) and (max-width:1023px) {
+
+    #infocomprador {
+        width: 100%;
+    }
+
+    #revisionpedido {
+        width: 100%;
+    }
+
+}
+
+@media(max-width: 480px) {
+    #infocomprador {
+        width: 100%;
+    }
+
+    #revisionpedido {
+        width: 100%;
+    }
+}
