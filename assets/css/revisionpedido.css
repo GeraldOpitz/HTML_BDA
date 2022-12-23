@@ -1,12 +1,4 @@
-footer{
-    background-color: #161616;
-    display: flex;
-    justify-content: space-around;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-top: 3%;
-    padding-bottom: 1rem;
-}
+
 
 .FT{
     font-family: "Roboto", Bold;
@@ -99,4 +91,41 @@ h4 span {
     width: 25%;
     
     
+}
+
+
+@media(max-width: 480px) {
+    #divcentral {
+        padding-left: 0em;
+        padding-right: 0em;
+    
+    }
+    #precio-unitario{
+        display:none !important;
+    }
+
+    #precio-unitario-pesos{
+        display: none !important;
+       
+    }
+
+    #info-contacto {
+        width: 100%;
+    }
+
+    #metodo-pago {
+        width: 100%;
+    }
+
+    #direccion-envio {
+        width: 100%;
+    }
+
+    #direccion-facturacion {
+        width: 100%;
+    }
+
+
+
+
 }

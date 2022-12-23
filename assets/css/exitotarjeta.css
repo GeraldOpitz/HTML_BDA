@@ -37,11 +37,7 @@ h4 span {
 
 
 @media(max-width: 480px) {
-    #divcentral {
-        padding-left: 0em;
-        padding-right: 0em;
-    
-    }
+
     #precio-unitario{
         display:none !important;
     }
